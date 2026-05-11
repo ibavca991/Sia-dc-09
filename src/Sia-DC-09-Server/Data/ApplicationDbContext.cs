@@ -7,6 +7,7 @@ public class ApplicationDbContext : DbContext
 {
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
     {
+        
     }
 
     // Позже добавишь: DbSet<User>, DbSet<RefreshToken> и т.д.
