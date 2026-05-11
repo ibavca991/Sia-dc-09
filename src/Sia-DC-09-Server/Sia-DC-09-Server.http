@@ -1,0 +1,6 @@
+@Sia_DC_09_Server_HostAddress = http://localhost:5219
+
+GET {{Sia_DC_09_Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
